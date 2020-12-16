@@ -1,0 +1,947 @@
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(246,174,158);
+}
+.nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.nav li {
+    float:left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: white;
+}
+
+
+
+
+
+
+.results {
+    padding-top:5px;
+    width:90%;
+    background-color:rgba(246,174,158,0.25);
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+
+
+.blog-link a:link {
+    text-decoration:none;
+}
+
+
+.blog-link a:hover {
+    text-decoration:underline;
+}
+
+
+
+
+
+
+.middle {
+    text-align:center;
+}
+
+
+.blog-img {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+.meal-img {
+    height:400px;
+    width:100%;
+    background-position:20% 50%;
+    background-image:url('../images/meal800.png');
+}
+
+.full-width {
+    width:100%;
+}
+
+.waitress-img {
+    height:400px;
+    width:100%;
+    background-position:20% 50%;
+    background-image:url('../images/waitress-top800.png');
+}
+
+.piggy-img {
+    height:400px;
+    width:100%;
+    background-position:20% 50%;
+    background-image:url('../images/piggy800.png');
+}
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form-box {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+.contact-link a:link, .contact-link a:visited {
+    background-color: white;
+    color: black;
+    padding: 3px 20px;
+    width:300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom:20px;
+    border:3px solid #F6AE9E;
+    border-radius:10px;
+}
+
+.contact-link a:hover, .contact-link a:active {
+  background-color: #F6AE9E;
+  color: black;
+}
+.contact-row {
+    width:100%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+
+
+
+
+
+
+
+.link-blog a:link, .link-blog a:visited {
+    background-color: #F6AE9E;
+    color: black;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom:20px;
+    border:3px solid #F6AE9E;
+    border-radius:10px;
+}
+
+.link-blog a:hover, .link-blog a:active {
+  background-color: white;
+  color: black;
+}
+
+.blog-text {
+    text-align:left;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.blog-heading {
+    font-size:28px;
+    background-color:#E9DEDB;
+    border-radius:25px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.blog-title {
+    background-color:#E9DEDB;
+    border-radius:25px;
+    text-align:center;
+}
+.blog-list {
+    background-color:#F6AE9E;
+    border-radius:5px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+    text-align:center;
+}
+
+.indent {
+    text-indent:40px;
+}
+#heart {
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:-20px;
+}
+
+
+
+
+
+
+#myskills {
+    background-image:url('../images/myskills1500.png');
+    background-position:25% 50%;
+    height:200px;
+}
+
+.skill {
+    background-color:rgb(246,174,158);
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    color:black;
+    padding-top:10px;
+    
+}
+
+#skill1 {
+    width:93%;
+}
+
+#skill2 {
+    width:70%;
+}
+
+#skill3 {
+    width:87%;
+}
+
+
+
+#letshang {
+    width:100%;
+    height:300px;
+ 
+}
+
+
+
+
+
+
+
+.footer {
+    text-align:right;
+    background-color:rgba(246,174,158,0.75);
+    margin-top:10px;
+    padding-top:10px;
+    font-size:11px;
+    padding-right:10px;
+    
+}
+
+.cabin {
+    font-family: 'Cabin';
+    font-size: 22px;
+}
+
+
+.pad{
+    padding-top:10px;
+    font-size:80%;
+}
+
+.phone-top {
+    width:100%;
+    background-image:url('../images/heythere1075.png');
+    background-position:50% 50%;
+    text-align:center;
+    background-repeat:no-repeat;
+    height:550px;
+    padding-top:370px;
+}
+
+
+
+
+
+.read-more:link, .read-more:visited {
+    background-color: white;
+    color: black;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom:20px;
+    border:3px solid #F6AE9E;
+    border-radius:10px;
+    float:left;
+}
+
+.read-more:hover, .read-more:active {
+  background-color:#F6AE9E;
+}
+
+.start-here:link, .start-here:visited {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:3px solid #F6AE9E;
+    border-radius:10px;
+}
+
+.start-here:hover, .start-here:active {
+  background-color:#F6AE9E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+    color:black;
+    font-size:35px;
+}
+
+
+.read {
+    height:10px;
+    width:100%;
+    margin-top:-40px;
+    
+}
+.read-now:link, .read-now:visited {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-size:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:3px solid #F6AE9E;
+    border-radius:10px;
+}
+
+.read-now:hover, .read-now:active {
+  background-color:#F6AE9E;
+}
+
+
+#plantblogpost {
+    text-align:center;
+    color:white;
+    font-size:40px;
+    background-color:#996C62;
+    width:50%;
+    padding-top:1px;
+    padding-bottom:4px;
+    padding-right:30px;
+    padding-left:30px;
+    position:relative;
+    margin-left:25%;
+    margin-right:25%;
+    z-index:9;
+}
+#plantblog {
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    height:80%;
+    position:relative;
+}
+#college-title {
+    width:100%;
+    height:50px;
+    margin-top:-10px;
+}
+
+#waitressblog {
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    height:80%;
+    position:relative;
+}
+#waitressblogpost {
+    text-align:center;
+    color:white;
+    font-size:40px;
+    background-color:#996C62;
+    width:50%;
+    padding-top:1px;
+    padding-bottom:4px;
+    padding-right:30px;
+    padding-left:30px;
+    position:relative;
+    margin-left:25%;
+    margin-right:25%;
+    z-index:9;
+}
+
+
+
+
+
+
+
+
+
+.title2 {
+    color:white;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.blog-posts {
+    width:100%;
+}
+
+
+
+.hundred {
+    width:100%;
+}
+
+
+
+
+.sorry {
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-column {
+    width:33.33%;
+    float:left;
+    padding: 0px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+
+}
+
+.half-column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about{
+    margin-left:-30px;
+}
+
+.abt{
+    text-align:center;
+}
+
+.abt-column{
+    width:50%;
+    padding:10px;
+    float: left;
+}
+
+#abt-text{
+    margin-top:60px;
+}
+
+
+
+#meimg {
+    width:100%;
+}
+
+#blogtop {
+    width:100%;
+}
+
+#contact-img {
+    background-image:url('../images/contact800.png');
+    width:100%;
+    height:400px;
+    background-position:70% 50%;
+}
+
+
+
+
+
+
+#contact-title {
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    background-color:#E9DEDB;
+    border-radius:25px;
+    text-align:center;
+}
+
+
+
+
+.video {
+    width:100%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .abt-column  {
+      width: 100%;
+    }
+    .half-column {
+        width:100%;
+    }
+    #abt-text{
+        margin-top:-50px;
+    }
+    #blog4,#blog5{
+        display:none;
+    }
+    .phone-top {
+        background-image:url('../images/heythere800.png');
+        background-position:75% 50%;
+    }
+    #myskills {
+        background-image:url('../images/myskills1000.png');
+    }
+    #letshang {
+        background-image:url('../images/hang750.png');
+    }
+    .title {
+        font-size:25px;
+    }
+    .title2 {
+        font-size:25px;
+    }
+    .read-now {
+        font-size:15px;
+    }
+    .waitress-column1,.waitress-column2 {
+        width:100%;
+    }
+    .nav li a {
+        padding:14px 30px;
+    }
+    .form-box {
+        margin-top:50px;
+    }
+    .sorry {
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:50px;
+    }
+    #plantblog {
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        height:50%;
+    }
+    #read-plantblog {
+        padding: 5px 10px;
+        font-size:20px;
+    }
+    #plantblogpost {
+        height:210px;
+        margin-top:-150px;
+    }
+    #waitressblog {
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        height:50%;
+    }
+    #waitressblogpost {
+        height:210px;
+        margin-top:-150px;
+    }
+    #read-waitressblog {
+        padding: 5px 10px;
+        font-size:20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .abt-column  {
+      width: 50%;
+    }
+    .half-column {
+        width:50%;
+    }
+    #abt-text{
+        margin-top:-10px;
+    }
+    #blog4,#blog5{
+        display:none;
+    }
+    .phone-top {
+            background-image:url('../images/heythere800.png');
+            background-position:50% 50%;
+    }
+    #myskills {
+        background-image:url('../images/myskills1000.png');
+    }
+    #letshang {
+        background-image:url('../images/hang1000.png');
+    }
+    .title {
+        font-size:30px;
+    }
+    .title2 {
+        font-size:30px;
+    }
+    .read-now {
+        font-size:20px;
+    }
+    .waitress-column1,.waitress-column2 {
+        width:100%;
+    }
+    .meal-img {
+        background-image:url('../images/meal1000.png');
+    }
+    .waitress-img {
+        background-image:url('../images/waitress-top1000.png');
+    }
+    .piggy-img {
+        background-image:url('../images/piggy1000.png');
+    }
+    .nav li a {
+        padding:14px 40px;
+    }
+    #contact-img {
+        background-image:url('../images/contact1000.png');
+        background-position:55% 50%;
+    }
+    .form-box {
+        margin-top:0px;
+    }
+    .sorry {
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top:50px;
+    }
+    #plantblog {
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        height:50%;
+    }
+    #read-plantblog {
+        padding: 5px 10px;
+        font-size:25px;
+    }
+    #plantblogpost {
+        height:225px;
+        margin-top:-180px;
+    }
+    #waitressblog {
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        height:50%;
+    }
+    #waitressblogpost {
+        height:225px;
+        margin-top:-180px;
+    }
+    #read-waitressblog {
+        padding: 5px 10px;
+        font-size:25px;
+    }
+    .video {
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .column {
+        width:20%;
+    }
+    .abt-column {
+        width:50%;
+    }
+    .half-column {
+        width:50%;
+    }
+    #abt-text{
+        margin-top:35px;
+    }
+    #blog4,#blog5{
+        display:inline;
+    }
+    .phone-top {
+        background-image:url('../images/heythere1075.png');
+    }
+    #myskills {
+        background-image:url('../images/myskills1500.png');
+    }
+    #letshang {
+        background-image:url('../images/hang1500.png');
+    }
+    .blog-posts {
+        width:100%;
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .title {
+        font-size:35px;
+    }
+    .title2 {
+        font-size:35px;
+    }
+    .read-now {
+        font-size:25px;
+    }
+    .meal-img {
+        background-image:url('../images/meal1500.png');
+    }
+    .waitress-img {
+        background-image:url('../images/waitress-top1300.png');
+    }
+    .piggy-img {
+        background-image:url('../images/piggy1300.png');
+    }
+    .blog-text {
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
+    }
+    .nav li a {
+        padding:14px 50px;
+    }
+    #contact-img {
+        background-image:url('../images/contact1300.png');
+        background-position:50% 50%;
+    }
+    .results {
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+    .contact-row {
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .form-box {
+        margin-top:0px;
+    }
+    .sorry {
+        width:40%;
+        margin-left:30%;
+        margin-right:30%;
+        margin-top:50px;
+    }
+    #plantblog {
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
+        height:80%;
+    }
+    #read-plantblog {
+        padding: 5px 10px;
+        font-size:25px;
+    }
+    #plantblogpost {
+        height:250px;
+        margin-top:-200px;
+    }
+    #waitressblog {
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
+        height:80%;
+    }
+    #waitressblogpost {
+        height:250px;
+        margin-top:-200px;
+    }
+    #read-waitressblog {
+        padding: 5px 10px;
+        font-size:25px;
+    }
+    .video {
+        width:60%;
+        margin-left:20%;
+        margin-right:20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #F6AE9E;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(246,174,158,0.5);
+}
