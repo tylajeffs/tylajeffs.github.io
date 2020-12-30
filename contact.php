@@ -26,7 +26,7 @@
         <div class="nav">
             
             <ul>
-                <li><a href="homepage.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="blogarchive.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -73,7 +73,7 @@
             
                 <div class="contact-link abt-column">
                         
-                    <a href="homepage.html" target="_blank">Yep! Return to home</a>
+                    <a href="index.html" target="_blank">Yep! Return to home</a>
                     
                 </div>
                 
